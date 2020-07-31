@@ -1,14 +1,95 @@
 {
-   "status":"Healthy",
-   "results":{
-      "ApplicationHealthCheck":{
-         "status":"Healthy",
-         "description":"The check indicates a healthy result.",
-         "data":{
-            "OrderPostingService version":"1.0.0.0-batt270666x012",
-            "DB2Persistence version":"5.6.1",
-            "DataComDrainer version":"1.5.0"
-         }
-      }
-   }
+
+  "data": [
+
+    {
+
+      "attributes": {
+
+        "conf": "{'df_config': {'client_ref_id': 'gtm_client_ref', 'outputs': {'array': [{'partitions': None, 'total_record_count': -1, 'partition_key': '', 'exception_path': '', 'exceptions_count': -1, 'name': 'XFW0:gtm_trade_message_dh', 'data_type': 'dt2', 'location': None, 'data_status': 'UNPROCESSED', 'config_version': 'latest'}, {'partitions': None, 'total_record_count': -1, 'partition_key': '', 'exception_path': '', 'exceptions_count': -1, 'name': 'XFW0:gtm_product_fungible_dh', 'data_type': 'dt3', 'location': None, 'data_status': 'UNPROCESSED', 'config_version': 'latest'}]}, 'job_name': 'XFW0:GTM_Data_Transformer_DH', 'job_config_version': 'latest', 'inputs': {'array': [{'partitions': None, 'total_record_count': -1, 'partition_key': '', 'exception_path': '/prod2/hot/xfw0/tsdz/trade/trap', 'exceptions_count': -1, 'name': 'XFW0:gtm_trade_input_dh', 'data_type': 'dt1', 'location': None, 'data_status': 'UNPROCESSED', 'config_version': 'latest'}]}, 'pipeline_id': 'GTM_DATA_HYDRATION', 'user_data': {'optional': {'archive_dir': '/prod2/hot/xfw0/rdz/trade/yyyy=2020/mm=06/dd=26', 'partitionPath': 'yyyy=2020/mm=06/dd=26'}, 'required': {'portfolio_date': '20200626', 'event_type': 'None', 'system_id': 'XFW0', 'source_batch_name': 'None', 'run_type': 'RUN', 'business_date': '20200626', 'region': 'US', 'processing_system_id': 'XFW0'}}, 'app_code': 'XFW0'}, 'timestamp': '2020-06-26 14:01:56.174', 'dmf_configurations': {'inputs': [{'name': 'XFW0:gtm_trade_input_dh', 'revision': 10, 'path': 'hdfs://prodgcc/prod2/hot/xfw0/ldz/trade/', 'data_zone': {'application': 'XFW0', 'data_store': {'uuid': '4f95077c-2fa8-4d58-ba90-02b0768c7c12', 'name': 'prodgcc', 'template': 'hdfs://prodgcc/${data_zone}/${folder}/${space}', 'is_ha': True, 'cluster_name': 'prodgcc', 'name_node': None, 'port': None, 'url': None}, 'properties': None, 'uuid': 'b50fa8c6-8f4d-4ade-a30b-5f287180abf2', 'name': 'GTM_LDZ', 'storage_tier': 2, 'path': '/prod2/hot/xfw0/ldz', 'object_type': 'file', 'description': None}}], 'outputs': [{'name': 'XFW0:gtm_product_fungible_dh', 'revision': 3, 'path': 'hdfs://prodgcc/prod2/hot/xfw0/tsdz/trade/', 'data_zone': {'application': 'XFW0', 'data_store': {'uuid': '4f95077c-2fa8-4d58-ba90-02b0768c7c12', 'name': 'prodgcc', 'template': 'hdfs://prodgcc/${data_zone}/${folder}/${space}', 'is_ha': True, 'cluster_name': 'prodgcc', 'name_node': None, 'port': None, 'url': None}, 'properties': None, 'uuid': '7662e5ee-e281-4aa2-96e6-a026bb787e02', 'name': 'GTM_TSDZ', 'storage_tier': 2, 'path': '/prod2/hot/xfw0/tsdz', 'object_type': 'file', 'description': None}}, {'name': 'XFW0:gtm_trade_message_dh', 'revision': 3, 'path': 'hdfs://prodgcc/prod2/hot/xfw0/tsdz/trade/', 'data_zone': {'application': 'XFW0', 'data_store': {'uuid': '4f95077c-2fa8-4d58-ba90-02b0768c7c12', 'name': 'prodgcc', 'template': 'hdfs://prodgcc/${data_zone}/${folder}/${space}', 'is_ha': True, 'cluster_name': 'prodgcc', 'name_node': None, 'port': None, 'url': None}, 'properties': None, 'uuid': '7662e5ee-e281-4aa2-96e6-a026bb787e02', 'name': 'GTM_TSDZ', 'storage_tier': 2, 'path': '/prod2/hot/xfw0/tsdz', 'object_type': 'file', 'description': None}}], 'job_config': {'application': 'XFW0', 'version': {'version_identifier': '0f261ca1-d09e-4d2d-adc3-2825660de580', 'revision': 41, 'meta_object': 'DF Configuration', 'effective_start': '2020-06-06', 'effective_end': None, 'update_timestamp': '2020-06-06T14:25:01.980348Z', 'updated_by': ''}, 'user_parameters': [], 'dmf_parameters': [{'name': 'files', 'value': 'extApp.conf'}], 'spark_config_parameters': [], 'data_zone': {'application': 'XFW0', 'data_store': {'uuid': '4f95077c-2fa8-4d58-ba90-02b0768c7c12', 'name': 'prodgcc', 'template': 'hdfs://prodgcc/${data_zone}/${folder}/${space}', 'is_ha': True, 'cluster_name': 'prodgcc', 'name_node': None, 'port': None, 'url': None}, 'properties': None, 'uuid': '893fd95d-0a7b-435a-912b-acb943323c0e', 'name': 'GTM_APP', 'storage_tier': 2, 'path': '/prod2/hot/xfw0/app', 'object_type': 'file', 'description': None}, 'sla': None, 'name': 'GTM_Data_Transformer_DH', 'job_type': 'etl', 'job_kind': 'java', 'workflow': 'workflow2', 'data_size': 'low', 'retries': 1, 'jar_file': '/gtm-data-transformer-3.0.1.3-jar-with-dependencies.jar', 'py_file': None, 'java_class': 'com.rbccm.gtm.transformer.TransformerApp', 'pyspark': False, 'description': 'GTM data transformer job by data Hydration', 'search_tags': None, 'archive': False, 'api_name': None, 'api_release_number': None, 'latest': True, 'shared': True, 'docker_image': None, 'contact_info': None, 'allow_concurrent': False}, 'principal': 'PXFW0SRV0Z50@OAK.FG.RBC.COM', 'spark_settings': {'low': {'executor_cores': '1', 'total_executor_cores': '1', 'num_of_executors': '7', 'executor_memory': '2G', 'driver_memory': '2G'}, 'medium': {'executor_cores': '2', 'total_executor_cores': '2', 'num_of_executors': '20', 'executor_memory': '4G', 'driver_memory': '4G'}, 'high': {'executor_cores': '5', 'total_executor_cores': '5', 'num_of_executors': '80', 'executor_memory': '20G', 'driver_memory': '20G'}, 'queues': {'prodgcc': {'adhoc': {'high': 'priority', 'medium': 'priority', 'low': 'priority'}, 'etl': {'high': 'large', 'medium': 'medium', 'low': 'small'}, 'compute': {'high': 'large', 'medium': 'medium', 'low': 'small'}, 'maintenance': {'high': 'dlm', 'medium': 'dlm', 'low': 'dlm'}}}}}}",
+
+        "dag_id": "workflow2",
+
+        "end_date": null,
+
+        "execution_date": "2020-06-26T18:01:56.732049+00:00",
+
+        "external_trigger": true,
+
+        "id": 9998,
+
+        "run_id": "df_XFW0__XFW0:GTM_Data_Transformer_DH__8d968ad0-e433-461a-82ac-afbfe718b6dc",
+
+        "start_date": "2020-06-26T18:01:56.951810+00:00",
+
+        "state": "success"
+
+      },
+
+      "links": {
+
+        "self": "http://airflow.cfkdr.fg.rbc.com/data-fabric/api/v1/dags/workflow2/runs/2020-06-26T18:01:56.732049+00:00"
+
+      },
+
+      "relationships": {
+
+        "logs": {
+
+          "links": {
+
+            "related": "http://airflow.cfkdr.fg.rbc.com/data-fabric/api/v1/logs/?dag_id=workflow2&execution_date=2020-06-26T18%3A01%3A56.732049%2B00%3A00"
+
+          }
+
+        },
+
+        "tasks-instances": {
+
+          "links": {
+
+            "related": "http://airflow.cfkdr.fg.rbc.com/data-fabric/api/v1/dags/workflow2/runs/2020-06-26T18:01:56.732049+00:00/task-instances/"
+
+          }
+
+        }
+
+      },
+
+      "type": "DagRun"
+
+    }
+
+  ],
+
+  "links": {
+
+    "first": "http://airflow.cfkdr.fg.rbc.com/data-fabric/api/v1/runs/?run_id=df_XFW0__XFW0%3AGTM_Data_Transformer_DH__8d968ad0-e433-461a-82ac-afbfe718b6dc&page=1&per_page=40",
+
+    "last": "http://airflow.cfkdr.fg.rbc.com/data-fabric/api/v1/runs/?run_id=df_XFW0__XFW0%3AGTM_Data_Transformer_DH__8d968ad0-e433-461a-82ac-afbfe718b6dc&page=1&per_page=40",
+
+    "next": null,
+
+    "prev": null,
+
+    "self": "http://airflow.cfkdr.fg.rbc.com/data-fabric/api/v1/runs/?run_id=df_XFW0__XFW0%3AGTM_Data_Transformer_DH__8d968ad0-e433-461a-82ac-afbfe718b6dc&page=1&per_page=40"
+
+  },
+
+  "meta": {
+
+    "endpoint": "data_fabric.api.list-runs",
+
+    "page": 1,
+
+    "pages": 1,
+
+    "per_page": 40,
+
+    "status": 200,
+
+    "total": 1
+
+  }
+
 }
