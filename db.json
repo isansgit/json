@@ -1,17 +1,14 @@
-[
-	{
-	  "column1": "dataA1",
-	  "column2": "dataA2",
-	  "column3": "dataA3"
-	},
-	{
-	  "column1": "dataB1",
-	  "column2": "dataB2",
-	  "column3": "dataB3"
-	},
-	{
-	  "column1": "dataC1",
-	  "column2": "dataC2",
-	  "column3": "dataC3"
-	}
-]
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
