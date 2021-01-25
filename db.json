@@ -1,4 +1,4 @@
-{
+[
 	{
 	  "column1": "dataA1",
 	  "column2": "dataA2",
@@ -14,4 +14,4 @@
 	  "column2": "dataC2",
 	  "column3": "dataC3"
 	}
-}
+]
