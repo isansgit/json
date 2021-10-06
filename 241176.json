@@ -1,0 +1,21 @@
+[{
+
+  "distinguishedName" : "OU=EMPLOYEES,OU=USERS",
+
+  "attributes" : {
+
+    "lastLogoff" : [ "0" ],
+
+    "mail" : [ "vikas.m.bhatia@jpmorgan.com" ],
+
+    "lastLogonTimestamp" : [ "2021-09-28T13:19:33.207Z" ],
+
+    "jpmcl" : [ "Mumbai" ],
+
+    "jpmcRegion" : [ "ASIA" ],
+
+    "givenName" : [ "Vikas" ]
+
+  }
+
+}]
