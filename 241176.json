@@ -4,17 +4,17 @@
 
   "attributes" : {
 
-    "lastLogoff" : [ "0" ],
+    "lastLogoff" :  "0" ,
 
-    "mail" : [ "vikas.m.bhatia@jpmorgan.com" ],
+    "mail" :  "vikas.m.bhatia@jpmorgan.com" ,
 
-    "lastLogonTimestamp" : [ "2021-09-28T13:19:33.207Z" ],
+    "lastLogonTimestamp" :  "2021-09-28T13:19:33.207Z" ,
 
-    "jpmcl" : [ "Mumbai" ],
+    "jpmcl" :  "Mumbai" ,
 
-    "jpmcRegion" : [ "ASIA" ],
+    "jpmcRegion" :  "ASIA" ,
 
-    "givenName" : [ "Vikas" ]
+    "givenName" :  "Vikas" 
 
   }
 
