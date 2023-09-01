@@ -1,0 +1,35 @@
+{
+   "name": "my-kafka-connector",
+   "connector": {
+       "state": "RUNNING",
+       "worker_id": "cud1-xxxx.us.global.schwab.com:8443"
+   },
+   "tasks": [
+       {
+           "id": 0,
+           "state": "RUNNING",
+           "worker_id": "cud1-xxxx.us.global.schwab.com:8443"
+       },
+       {
+           "id": 1,
+           "state": "RUNNING",
+           "worker_id": "cud1-xxxx.us.global.schwab.com:8443"
+       },
+       {
+           "id": 2,
+           "state": "RUNNING",
+           "worker_id": "cud1-xxxx.us.global.schwab.com:8443"
+       },
+       {
+           "id": 3,
+           "state": "RUNNING",
+           "worker_id": "cud2-xxxx.us.global.schwab.com:8443"
+       },
+       {
+           "id": 4,
+           "state": "RUNNING",
+           "worker_id": "cud1-xxxx.us.global.schwab.com:8443"
+       }
+    ],
+   "type": "sink"
+}
