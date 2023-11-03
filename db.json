@@ -11,7 +11,7 @@
   "profile": {
     "name": "typicode"
   },
-  "dummy-data": [
+  "dummyData": [
     { "id": "value 1", "source 1": 222, "source 2": 222 },
     { "id": "value 2", "source 1": 333, "source 2": 333 },
     { "id": "value 3", "source 1": 444, "source 2": 444 },
