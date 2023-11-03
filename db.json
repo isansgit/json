@@ -8,9 +8,6 @@
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
-  "profile": {
-    "name": "typicode"
-  },
   "dummyData": [
     { "id": "value 1", "source 1": 222, "source 2": 222 },
     { "id": "value 2", "source 1": 333, "source 2": 333 },
