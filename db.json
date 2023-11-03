@@ -10,5 +10,11 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "dummy-data": [
+    { "id": "value 1", "source 1": 222, "source 2": 222 },
+    { "id": "value 2", "source 1": 333, "source 2": 333 },
+    { "id": "value 3", "source 1": 444, "source 2": 444 },
+    { "id": "value 4", "source 1": 555, "source 2": 555 }
+  ]
 }
